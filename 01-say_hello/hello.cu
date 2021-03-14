@@ -9,4 +9,3 @@ void hello(){
     cuda_hello<<<2,4>>>();
     cudaDeviceSynchronize();
 }
-

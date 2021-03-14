@@ -19,4 +19,3 @@ Hello World from GPU!
 ## 参考
 - [Tutorial 01: Say Hello to CUDA](https://cuda-tutorial.readthedocs.io/en/latest/tutorials/tutorial01/)
 - [並列"Hello World"から始めるCUDA入門](https://qiita.com/JmpM/items/ada670ec80be9566269e)
-
