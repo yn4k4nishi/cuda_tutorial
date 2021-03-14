@@ -17,9 +17,9 @@ int main(){
     add_array(array_len, a, b, c);
 
     // print result
-    for (int i = 0; i < array_len; i++){
-        std::cout << a[i] << " + " << b[i] << " = " << c[i] << std::endl; 
-    }
+//    for (int i = 0; i < array_len; i++){
+//        std::cout << a[i] << " + " << b[i] << " = " << c[i] << std::endl;
+//    }
 
     return 0;
 }
