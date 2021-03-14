@@ -2,9 +2,10 @@
 #include "add_array.h"
 
 __global__ void add_cuda(int *a, int *b, int *c){
-    printf(i);
     int i = blockIdx.x*blockDim.x + threadIdx.x;
     c[i] = a[i] + b[i];
+
+    printf(i);
 }
 
 void add_array(int n, int *a, int *b, int *c){
