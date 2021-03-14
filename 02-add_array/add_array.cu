@@ -2,7 +2,7 @@
 #include "add_array.h"
 
 __global__ void add_cuda(int *a, int *b, int *c){
-    int i = blockIdx.x*blockDim.x + threadIdx.x;
+    int i = blockIdx.x * blockDim.x + threadIdx.x;
     c[i] = a[i] + b[i];
 
     printf("%d\n",i);
@@ -26,7 +26,7 @@ void add_array(int n, int *a, int *b, int *c){
     dim3 block(block_size,1,1);
     dim3 grid(n/block_size,1,1);
 
-    add_cuda<<<grid,block>>>(a, b, c);
+    add_cuda<<<grid, block>>>(d_a, d_b, d_c);
     cudaDeviceSynchronize();
 
     // memory copy from GPU to CPU

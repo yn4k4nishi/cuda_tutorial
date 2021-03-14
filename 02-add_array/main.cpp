@@ -3,7 +3,7 @@
 
 int main(){
     // prepare array
-    int array_len = 1000;
+    int array_len = 10;
     int a[array_len], b[array_len], c[array_len];
 
     // initialize
