@@ -2,7 +2,6 @@ cmake_minimum_required(VERSION 2.8)
 
 find_package(CUDA REQUIRED)
 if(CUDA_FOUND)
-    message("Cuda version: " ${CUDA_VERSION})
     CUDA_ADD_LIBRARY(02-CUDA_LIB STATIC
         add_array.cu
         add_array.h
