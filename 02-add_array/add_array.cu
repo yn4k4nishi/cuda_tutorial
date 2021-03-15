@@ -4,8 +4,6 @@
 __global__ void add_cuda(int *a, int *b, int *c){
     int i = blockIdx.x * blockDim.x + threadIdx.x;
     c[i] = a[i] + b[i];
-
-    printf("%d\n",i);
 }
 
 void add_array(int n, int *a, int *b, int *c){
@@ -22,7 +20,7 @@ void add_array(int n, int *a, int *b, int *c){
     cudaMemcpy(d_c, c, n*sizeof(int), cudaMemcpyHostToDevice);
 
     // call kernel function
-    int block_size = 512;
+    int block_size = 200;
     dim3 block(block_size,1,1);
     dim3 grid(n/block_size,1,1);
 
