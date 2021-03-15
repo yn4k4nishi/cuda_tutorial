@@ -1,28 +1,3 @@
-## ナビエ-ストークス方程式
-流体の運動を記述する2階非線型偏微分方程式
-
-粘性率が一定の非圧縮性流れの場合
-
-![\begin{align*}
-\frac{\partial \boldsymbol{v}}{\partial t} + ( \boldsymbol{v} \cdot \nabla )\boldsymbol{v}
-= - \frac{1}{\rho} + \nu \nabla^2\boldsymbol{v} + \boldsymbol{g}
-\end{align*}
-](https://render.githubusercontent.com/render/math?math=%5Cdisplaystyle+%5Cbegin%7Balign%2A%7D%0A%5Cfrac%7B%5Cpartial+%5Cboldsymbol%7Bv%7D%7D%7B%5Cpartial+t%7D+%2B+%28+%5Cboldsymbol%7Bv%7D+%5Ccdot+%5Cnabla+%29%5Cboldsymbol%7Bv%7D%0A%3D+-+%5Cfrac%7B1%7D%7B%5Crho%7D+%5Cnabla%5Cp+%2B+%5Cnu+%5Cnabla%5E2%5Cboldsymbol%7Bv%7D+%2B+%5Cboldsymbol%7Bg%7D%0A%5Cend%7Balign%2A%7D%0A)
-
-- p   : 圧力
-- v   : 流速
-- rho : 密度 const
-- nu  : 動粘性率 = 剪断粘性率 / 密度
-- g   : 外力場、加速度場
-
-<!-- 質量保存則
-
-![\begin{align*}
-\nabla \cdot \boldsymbol{v} = 0
-\end{align*}
-](https://render.githubusercontent.com/render/math?math=%5Cdisplaystyle+%5Cbegin%7Balign%2A%7D%0A%5Cnabla+%5Ccdot+%5Cboldsymbol%7Bv%7D+%3D+0%0A%5Cend%7Balign%2A%7D%0A) -->
-
-
 ## 格子ボルツマン法 Lattice Boltzmann Method(LBM)
 D2Q9の格子BGKモデルを採用
 

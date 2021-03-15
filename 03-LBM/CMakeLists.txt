@@ -8,9 +8,9 @@ if(CUDA_FOUND)
     )
 endif()
 
-add_executable(03-navier_stokes_eq
+add_executable(03-LBM
     main.cpp
     lbm.h
 )
 
-target_link_libraries(03-navier_stokes_eq 02-CUDA_LIB)
+target_link_libraries(03-LBM 02-CUDA_LIB)
