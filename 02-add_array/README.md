@@ -59,8 +59,10 @@ Result = PASS
 block_sizeは200までだとうまく動くが、256とかにすると恐らくメモリやレジスタが足りなくなってカーネル関数が正常に実行されない。
 
 実行結果より、cpuの方が早い
-> CPU Time : 184 us.
-> GPU Time : 534238 us.
+```
+CPU Time : 184 us.
+GPU Time : 534238 us.
+```
 
 ## 参考サイト
 - [繰り返し処理をCUDAで書く（配列同士の足し算）](https://qiita.com/wazakkyd/items/8a5694e7a001465b6025)
