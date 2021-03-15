@@ -60,4 +60,4 @@ block_sizeは200までだとうまく動くが、256とかにすると恐らく�
 
 ## 参考サイト
 - [繰り返し処理をCUDAで書く（配列同士の足し算）](https://qiita.com/wazakkyd/items/8a5694e7a001465b6025)
-- []
+- [CUDAでカーネル関数がスキップされる（ように見えた）](https://in-neuro.hatenablog.com/entry/2019/03/13/114731)
