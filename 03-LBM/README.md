@@ -7,6 +7,11 @@ f^{(0)}_a(t,\boldsymbol{r}) = w_a\rho[1-\frac{3}{2}(\boldsymbol{v}^2)+3(\boldsym
 ](https://render.githubusercontent.com/render/math?math=%5Cdisplaystyle+%5Cbegin%7Balign%2A%7D%0Af%5E%7B%280%29%7D_a%28t%2C%5Cboldsymbol%7Br%7D%29+%3D+w_a%5Crho%5B1-%5Cfrac%7B3%7D%7B2%7D%28%5Cboldsymbol%7Bv%7D%5E2%29%2B3%28%5Cboldsymbol%7Be%7D_a%5Ccdot%5Cboldsymbol%7Bv%7D%29%2B%5Cfrac%7B9%7D%7B2%7D%28%5Cboldsymbol%7Be%7D_a%5Ccdot%5Cboldsymbol%7Bv%7D%29%5E2%5D%0A%5Cend%7Balign%2A%7D%0A)
 
 ![\begin{align*}
+\rho = \sum_{a}^{}f_a
+\end{align*}
+](https://render.githubusercontent.com/render/math?math=%5Cdisplaystyle+%5Cbegin%7Balign%2A%7D%0A%5Crho+%3D+%5Csum_%7Ba%7D%5E%7B%7Df_a%0A%5Cend%7Balign%2A%7D%0A)
+
+![\begin{align*}
 \boldsymbol{u} = \sum_{a}^{}\frac{c\boldsymbol{e}_af_a}{\rho} \ \ \ \ \ \
 \because c = \frac{\Delta \boldsymbol{r}}{\Delta t}			
 \end{align*}
